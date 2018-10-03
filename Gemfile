@@ -46,3 +46,19 @@ group :development do
   gem 'spring'
 end
 
+
+gem 'administrate'
+gem 'bootstrap-sass'
+gem 'bourbon'
+gem 'devise'
+gem 'high_voltage'
+gem 'pundit'
+gem 'simple_form'
+
+group :development do
+  gem 'better_errors'
+  gem 'hub', :require=>nil
+  gem 'rails_apps_pages'
+  gem 'rails_layout'
+end
+
